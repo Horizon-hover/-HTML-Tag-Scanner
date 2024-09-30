@@ -54,19 +54,23 @@ Example Workflow:
 
 Choose which tags to scan (separate by comma or enter 'all' for all tags):
 Available tags: html, head, title, meta, link, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, table, tr, td, th, br, hr, input, form, button, i, b, u
+
 Enter your choice: div, p, a
 
 Enter the directory to scan HTML files: /path/to/html/files
 
 Choose a file from the list below:
+
 1. index.html
 2. about.html
 3. contact.html
+   
 Enter the number of the file you want to select: 1
 
 Enter the number of lines per page: 10
 
 --- Page 1/3 ---
+
 1: Start Line : <div (Div #1)
 3: Start Line : <p>
 4: End Line : </p>
@@ -77,6 +81,7 @@ Enter the number of lines per page: 10
 Press 'n' for next page or 'q' to quit: n
 
 --- Page 2/3 ---
+
 12: Start Line : <div (Div #2)
 14: Start Line : <p>
 15: End Line : </p>
