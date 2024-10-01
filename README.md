@@ -29,7 +29,7 @@ pip install tqdm
 How to Use:
 
 Run the Program: Execute the program in your terminal:
-python html_tag_scanner.py
+python tagcheck.py
 
 Choose Tags:
 
