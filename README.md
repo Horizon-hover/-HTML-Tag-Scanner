@@ -4,11 +4,17 @@ This program allows users to scan and parse HTML files for specific HTML tags.
 Provides a line-by-line analysis of the specified tags, logging the occurrence of start tags, end tags, and self-closing tags. Users can select which tags to scan and navigate through the parsed results in a paginated view.
 
 Features:
+
 Custom Tag Selection: Users can select specific HTML tags to scan or choose to scan all available tags.
+
 Directory and File Selection: The program lists available files in a specified directory, allowing users to select the HTML file they want to process.
+
 Line-by-Line Parsing: The program parses HTML content line by line, tracking and displaying the start, end, and self-closing tags, as well as the associated line numbers.
+
 Pagination: Users can view parsed results in a paginated format and control how many lines they want to display per page.
+
 Logging: All key actions, errors, and tag occurrences are logged in a file named tagcheck.log.
+
 Error Handling: The program handles invalid user inputs, file-not-found errors, and unexpected conditions gracefully.
 
 Installation:
